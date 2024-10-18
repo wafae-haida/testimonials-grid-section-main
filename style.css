@@ -61,16 +61,19 @@ body{
     margin-top: 45px;
 }
 .name{
-    font-weight: 500;
+    font-weight: 600;
+    font-size:medium;
 }
 .title{
     font-weight: 600;
     margin-top: 20px;
-    font-size:xx-large;
+    font-size:x-large;
 }
 .text{
     margin-top: 20px;
-    font-size: medium;
+    font-weight: 500;
+}
+.status{
     font-weight: 500;
 }
 .profile ul{
@@ -103,7 +106,6 @@ body{
     opacity: 0.9;
     z-index: -1; /* Place the image behind other elements */
 }
-
 footer{
     padding-bottom: 20px;
 }
