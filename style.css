@@ -9,7 +9,7 @@ body{
     border-radius: 5px;
 }
 .mutual-padding{
-    padding: 30px;
+    padding: 40px;
 }
 .container-violet{
     background-color: hsl(263, 55%, 52%);
@@ -56,8 +56,8 @@ body{
 .main-container{
     display: grid;
     grid-template-rows: auto; 
-    gap: 20px;
-    padding: 20px;
+    gap: 25px;
+    padding: 25px;
     margin-top: 45px;
 }
 .name{
@@ -96,10 +96,11 @@ body{
 }
 .bg-quotation {
     position: absolute; /* Position the image absolutely within the container */
-    right: 30px; /* Adjust the distance from the right */
+    right: 40px; /* Adjust the distance from the right */
     top: 0; /* Adjust the distance from the top */
-    width: 150px; /* Set the desired width */
-    height: 140px; /* Set the desired height */
+    width: 140px; /* Set the desired width */
+    height: 150px; /* Set the desired height */
+    opacity: 0.9;
     z-index: -1; /* Place the image behind other elements */
 }
 
