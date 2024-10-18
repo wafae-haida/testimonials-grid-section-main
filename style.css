@@ -15,21 +15,41 @@ body{
     background-color: hsl(263, 55%, 52%);
     color: hsl(0, 0%, 100%);
 }
+.container-violet .status{
+    color: hsl(0, 0%, 100%, 0.5);
+}
+.container-violet .text{
+    color: hsl(0, 0%, 100%, 0.7);
+}
 .container-gray{
     background-color: hsl(217, 19%, 35%);
     color: hsl(0, 0%, 100%);
+}
+.container-gray .status{
+    color: hsl(0, 0%, 100%, 0.5);
+}
+.container-gray .text{
+    color: hsl(0, 0%, 100%, 0.7);
 }
 .container-white{
     background-color: hsl(0, 0%, 100%);
     color: hsl(217, 19%, 35%);
 }
+.container-white .status{
+    color: hsl(217, 19%, 35%, 0.5);
+}
+.container-white .text{
+    color: hsl(217, 19%, 35%, 0.7);
+}
 .container-black{
     background-color: hsl(219, 29%, 14%);
     color: hsl(0, 0%, 100%);
 }
-.container-white-second{
-    background-color: hsl(0, 0%, 100%);
-    color: hsl(217, 19%, 35%);
+.container-black .status{
+    color: hsl(0, 0%, 100%, 0.5);
+}
+.container-black .text{
+    color: hsl(0, 0%, 100%, 0.7);
 }
 .main-container{
     display: grid;
@@ -38,15 +58,18 @@ body{
     padding: 20px;
     margin-top: 45px;
 }
+.name{
+    font-weight: 500;
+}
 .title{
     font-weight: 600;
     margin-top: 20px;
+    font-size:xx-large;
 }
 .text{
     margin-top: 20px;
-}
-.status{
-    color: hsl(0, 0%, 81%);
+    font-size: medium;
+    font-weight: 500;
 }
 .profile ul{
     padding: 0;
@@ -59,14 +82,15 @@ body{
     margin-right: 10px;
     width: 35px;
 }
-.Verified-Graduate{
-    border-color: hsl(263, 55%, 52%, 0.5);;
-    border-width: 5px;
-    border-style:groove;
+.Verified-status{
+    border-color: hsl(264, 51%, 63%);
+    border-width: 3px;
+    border-style:solid;
 }
 .attribution{
     text-align: center;
     min-width: 300px;  
+    font-size: 11px; 
 }
 footer{
     padding-bottom: 20px;
